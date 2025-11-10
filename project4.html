@@ -26,27 +26,46 @@
 <body class="p-3 m-0 border-0 bd-example bg-light text-dark">
 
   <!-- Navigatie -->
-  <nav class="navbar navbar-expand-md bg-body-tertiary shadow-sm">
-    <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-primary" href="project4.html">
-        <img src="images/Logo_Robbe_Boel.png" alt="Logo Robbe Boel" width="60" height="60" class="me-2">
-        Robbe Boel
-      </a>
+<nav class="navbar navbar-expand-md bg-body-tertiary shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-primary" href="index.html">
+      <img src="images/Logo_Robbe_Boel.png" alt="Logo Robbe Boel" width="60" height="60" class="me-2">
+      Robbe Boel
+    </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Navigatie tonen">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Navigatie tonen">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="projecten.html">Projecten</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Rechterkant -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projecten
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="project1.html">Project 1</a></li>
+            <li><a class="dropdown-item" href="project2.html">Project 2</a></li>
+            <li><a class="dropdown-item" href="project3.html">Project 3</a></li>
+            <li><a class="dropdown-item" href="project4.html">Project 4</a></li>
+            <li><a class="dropdown-item" href="project5.html">Project 5</a></li>
+            <li><a class="dropdown-item" href="project6.html">Project 6</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Zoekbalk rechts -->
+      <form class="d-flex ms-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
+        <button class="btn btn-outline-secondary btn-sm" type="submit">Zoek</button>
+      </form>
     </div>
-  </nav>
+  </div>
+</nav>
 <main>
     <section>
         <h2>Beschrijving</h2>
